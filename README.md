@@ -1,2 +1,2 @@
-# C-
+# Cplus
 Código em C++
