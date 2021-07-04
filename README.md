@@ -1,7 +1,10 @@
+Arquivo do tipo MarkDown - estilo HTML
+
 # Git | GitHub
-O Git é um sistema de versionamneto de código de forma colaborativa. O GitHub é uma plataforma de armazenamanto de código na nuvem.
-https://git-scm.com/ : para instalar o GIT
-https://github.com/  : para armazenar na nuvem seus repositórios
+ - O Git é um sistema de versionamneto de código de forma colaborativa. O GitHub é uma plataforma de armazenamanto de código na nuvem.
+ - https://git-scm.com/ : para instalar o GIT
+ - https://github.com/  : para armazenar na nuvem seus repositórios
+ - https://web.digitalinnovation.one/course/introducao-ao-git-e-ao-github/ curso de Git/GitHub no Digitasl Innovation One
 
 # Comandos de navegação de diretórios no Windows
 cmd   : invoca o terminal no Windows
@@ -18,6 +21,9 @@ echo  : direciona o fluxo de dados
 
 * Instale o windows subsystem for linux no Windows 10, siga as instruções do tutorial a seguir [ https://youtu.be/muFHmfC9PVU ]
 
+Depois de instalado o GIT no Windows, abra o Explorador de Arquivos e navegue até a página que vovê quer trabalhar e com o botão direito do mouse clik na pasta que você quer trabalhar e seleciona a opção Git Bash Here.
+
+
 # Comoandos de navegaçção de diretórios no Linux 
 cd    : mudar de diretório
 ls    : listar diretórios e arquivos
@@ -27,4 +33,13 @@ rm    : apagar diretórios rm -rf nomeDoDiretório [ r : recursivamnmete, f : fo
 rf    : remover diretórios
 
 # Comandos para manipular repositório e código no Git/GitHub
+git init   : iniciar o git
+git add    : adicionar arquivos
+git commit : comitar o git
+
+git config --global user.email "crelisonalves@gmail.com"  : configurtar o e-mail do autor
+git config --global user.name Crelison                    : configura o nome do autor
+git add *                                                 : inclui todos os arquivos e diretórios no repositório da pasta atual
+git commit -m "commit inicial"                            : inicializa o commit
+git status                                                : informa o status do Git
 
