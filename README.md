@@ -1,5 +1,7 @@
 # Git | GitHub
 O Git é um sistema de versionamneto de código de forma colaborativa. O GitHub é uma plataforma de armazenamanto de código na nuvem.
+https://git-scm.com/ : para instalar o GIT
+https://github.com/  : para armazenar na nuvem seus repositórios
 
 # Comandos de navegação de diretórios no Windows
 cmd   : invoca o terminal no Windows
