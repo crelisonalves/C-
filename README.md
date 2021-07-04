@@ -42,4 +42,5 @@ git config --global user.name Crelison                    : configura o nome do 
 git add *                                                 : inclui todos os arquivos e diretórios no repositório da pasta atual
 git commit -m "commit inicial"                            : inicializa o commit
 git status                                                : informa o status do Git
+git config --list                                         : lista os dados do usuário, digit q para sair 
 
