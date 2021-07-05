@@ -44,3 +44,6 @@ git commit -m "commit inicial"                            : inicializa o commit
 git status                                                : informa o status do Git
 git config --list                                         : lista os dados do usuário, digit q para sair 
 
+git remote add origin link-GitHub                         : gravar endereço do link em origin https://github.com/crelisonalves/Arduino.git
+
+
