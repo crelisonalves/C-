@@ -7,9 +7,10 @@ Arquivo do tipo MarkDown - estilo HTML https://docs.pipz.com/central-de-ajuda/le
  > https://web.digitalinnovation.one/course/introducao-ao-git-e-ao-github/ curso de Git/GitHub no Digitasl Innovation One
 
 # Comandos de navegação de diretórios no Windows
-comando | Ação
-:--------|:--------------------------------------------:
-cmd   | invoca o terminal no Windows
+
+Comando  | Ação
+:--------|:--------:
+cmd      | invoca o terminal no Windows
 cd    | mudar de diretório
 dir   | listar diretórios e arquivos
 cls   | limpar a tela - clean screen
@@ -17,11 +18,14 @@ TAB   | aucompleta o nome dos diretórios e arquivos
 mkdir | criar diretórios
 del   | apagar arquivos
 rmdir | remover diretórios
-echo  | direciona o fluxo de dados         echo Olá mundo > texto.txt        direciona a cadeira de caracteres para o arquivo texto.txt
+echo  |  direciona o fluxo de dados         
+~ | echo Olá mundo > texto.txt        
+~ | direciona a cadeira de caracteres para o arquivo texto.txt
 
-* Instale o windows subsystem for linux no Windows 10, siga as instruções do tutorial a seguir [ https://youtu.be/muFHmfC9PVU ]
 
-Depois de instalado o GIT no Windows, abra o Explorador de Arquivos e navegue até a página que vovê quer trabalhar e com o botão direito do mouse clik na pasta que você quer trabalhar e seleciona a opção Git Bash Here.
+> Instale o windows subsystem for linux no Windows 10, siga as instruções do tutorial a seguir [ https://youtu.be/muFHmfC9PVU ]
+
+>Depois de instalado o GIT no Windows, abra o Explorador de Arquivos e navegue até a página que vovê quer trabalhar e com o botão direito do mouse clik na pasta que você quer >trabalhar e seleciona a opção Git Bash Here.
 
 
 # Comoandos de navegaçção de diretórios no Linux 
@@ -48,11 +52,14 @@ git commit -m "commit inicial"                            | inicializa o commit
 git status                                                | informa o status do Git
 git config --list                                         | lista os dados do usuário, digit q para sair 
 git remote add origin link-GitHub                         | gravar endereço do link em origin https://github.com/crelisonalves/Arduino.git
-git init|
-git add README.md|
-git commit -m "first commit"|
-git branch -M main|
-git remote add origin https://github.com/crelisonalves/teste.git|
-git push -u origin main|
+
+~~~Git
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/crelisonalves/teste.git
+git push -u origin main
+~~~
 
 
