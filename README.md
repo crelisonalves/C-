@@ -46,4 +46,11 @@ git config --list                                         : lista os dados do us
 
 git remote add origin link-GitHub                         : gravar endereço do link em origin https://github.com/crelisonalves/Arduino.git
 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/crelisonalves/teste.git
+git push -u origin main
+
 
